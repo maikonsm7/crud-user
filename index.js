@@ -1,4 +1,6 @@
+require('dotenv').config()
 const express = require('express')
+const conn = require('./db/conn')
 const app = express()
 const port = process.env.PORT || 3000
 
@@ -9,6 +11,8 @@ app.get('/', (req, res) => {
     res.send('Bem vindo!')
 })
 
-app.listen(port, ()=> {
+conn.sync()
+.then(app.listen(port, ()=>{
     console.log(`http://localhost:${port}`)
-})
+}))
+.catch(e => console.log(e))
