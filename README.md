@@ -6,6 +6,7 @@ Server Side Render
 - NodeJS
 - Java Script
 - MySQL
+- MySQL-Server
 - MySQL Workbench
 
 ## Database
