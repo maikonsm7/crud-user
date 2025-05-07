@@ -10,3 +10,9 @@ Server Side Render
 
 ## Database
 - create database 'cruduserDB'
+
+## Download and Install
+- git clone https://github.com/maikonsm7/crud-user.git
+- cd crud-user
+- npm i
+- npm start
