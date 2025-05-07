@@ -1,0 +1,33 @@
+.navbar{
+    display: flex;
+    padding: 5px;
+}
+.navbar a{
+    padding: 5px;
+    font-size: 15pt;
+}
+.notfound {
+    display: flex;
+    justify-content: center;
+}
+.users-list{
+    display: flex;
+    padding: 5px;
+}
+.actions{
+    margin-left: 10px;
+}
+.container{
+    max-width: 530px;
+    margin: 0 auto;
+}
+.form-control{
+    display: flex;
+    padding: 5px;
+}
+.form-control input{
+    margin-left: 5px;
+}
+input[type="submit"]{
+    margin-top: 5px;
+}

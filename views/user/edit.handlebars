@@ -1,0 +1,15 @@
+<h1>Editar Usuário</h1>
+<form action="/user/edit" method="post">
+<input type="hidden" name="id" value="{{user.id}}">
+<label class="form-control">
+    <span>Nome</span>
+    <input type="text" name="name" id="name" placeholder="Digite o nome" value="{{user.name}}">
+</label>
+<label class="form-control">
+    <span>Email</span>
+    <input type="email" name="email" id="email" placeholder="Digite o email" value="{{user.email}}">
+</label>
+<input type="submit" value="atualizar">
+</form>
+<br>
+<a href="/user">Voltar</a>

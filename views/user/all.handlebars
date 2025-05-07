@@ -1,0 +1,13 @@
+<h1>Usuários cadastrados</h1>
+<ul>
+    {{#each users}}
+    <li class="users-list">
+        <span>{{this.name}}</span>
+        <div class="actions">
+            <a href="/user/{{this.id}}">ver</a>
+            <a href="/user/edit/{{this.id}}">editar</a>
+            <a href="/user/remove/{{this.id}}">excluir</a>
+        </div>
+        </li>
+    {{/each}}
+</ul>
